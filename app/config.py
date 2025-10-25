@@ -15,6 +15,7 @@ class Settings(BaseSettings):
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
 
     DEBUG: bool = False
+    LEVEL: str = "INFO"
     APP_NAME: str = "ecommerce-fastapi"
 
     class Config:
